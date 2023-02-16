@@ -4,7 +4,9 @@ resources:
 - argocd/instances/ibm-sfg-db2-prod.yaml
 - argocd/instances/ibm-sfg-mq-prod.yaml
 - argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
-- argocd/instances/ibm-sfg-b2bi-prod.yaml
+
+#- argocd/instances/ibm-sfg-b2bi-prod.yaml
+
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
@@ -31,7 +33,7 @@ resources:
 # IBM CP4BA & ODM Instance
 #- argocd/operators/ibm-cp4ba-db2.yaml
 #- argocd/instances/ibm-cp4ba-db2ucluster.yaml
-#- argocd/instances/ibm-cp4ba-db2u-setup.yaml 
+#- argocd/instances/ibm-cp4ba-db2u-setup.yaml
 #- argocd/instances/ibm-cp4ba-openldap-odm.yaml
 #- argocd/operators/ibm-cp4ba-operator.yaml
 #- argocd/instances/ibm-cp4ba-icp4acluster.yaml
